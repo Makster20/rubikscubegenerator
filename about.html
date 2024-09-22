@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="parentDiv" class="">
+
+    <div class="font-body bg-blue-100 dark:bg-slate-900 min-h-screen w-full transition-colors ease-out duration-200">
+
+        <div class="text-center md:flex md:justify-between text-blue-950 dark:text-blue-100 shadow-xl">
+            <h1 class="pt-2 md:my-10 md:ml-10 text-4xl font-semibold hover:scale-110 transition-all ease-out duration-200">
+                <a href="index.html" class="min-w-full">Rubik's Cube Generator</a>
+            </h1>
+            <nav class="my-6 md:my-12 md:mr-8 text-base md:text-2xl block">
+                <div class="transform hover:scale-110 transition-all ease-out duration-200 mx-4 inline-block">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="transform hover:scale-110 transition-all ease-out duration-200 mx-4 inline-block">
+                    <a href="about.html">About</a>
+                </div>
+                <div class="transform hover:scale-110 transition-transform ease-out hidden md:inline-block">
+                    <svg id="darkToggle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#172554" class="size-6 cursor-pointer transform hover:scale-110 transition-transform ease-out duration-200 mx-5 inline-block md:w-20">
+                        <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </nav>
+        </div>
+        
+        <main>
+            <div class="text-center text-4xl m-10 text-blue-950 dark:text-blue-100">
+                <h1>
+                    This is the website to generate rubik's cube images
+                </h1>
+            </div>
+        </main>
+
+        <div class="fixed md:hidden bottom-5 right-5 bg-blue-950 dark:bg-blue-100 shadow-md cursor-pointer transition-all ease-out duration-200 p-3 rounded-2xl">
+            <svg id="darkButton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#DBEAFE" class="size-6">
+                <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+            </svg>
+        </div>
+    </div>
+    
+    
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
